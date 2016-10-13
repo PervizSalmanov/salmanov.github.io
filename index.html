@@ -1,0 +1,609 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Товарный Магазин</title>
+	<meta charset="utf-8" /> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<link rel="stylesheet" type="text/css" href="css/style10.css">
+	<script src="js/search.js"></script>
+    <script src="js/lifejquery.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="calls/remodal.min.js"></script>
+     <script src="calls/script.js"></script>
+    <script src="call/script.js"></script>
+     <script src="js/jquery.bxslider.js"></script>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<style type="text/css">
+		   	.container{width: 1000px; margin-left: 280px; margin-top: 7px;}
+    </style>
+    <script type="text/javascript">
+		$(document).ready(function(){
+		  $('.bxslider').bxSlider();
+		});
+	</script>
+	<script type="text/javascript">
+   jQuery(function($){
+  $("#phone").mask("+7(999) 999-9999");
+   });
+</script>
+</head>
+	  <body>
+	<div id="wrapper">
+		<div id="top">
+			<div class="inner">
+			<nav>
+				<ul>
+					<li><a href="about.html">О магазине</a></li>
+					<li><a href="#">АКЦИИ</a></li>
+					<li><a href="#">Оплата</a></li>
+					<li><a href="dostavka.html">доставка</a></li>
+					<li><a href="garantiyaivozvrat.html">Гарантия и возврат</a></li>
+					<li><a href="servis.html">сервисные центры</a></li>
+					<li><a href="rewie.html">статьи и обзоры</a></li>
+					<li class="Vff"><a href="contact.html">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="kabinet">
+				<p><a href="#openModal">Личный кабинет</a></p>
+				<div id="openModal" class="modalDialog">
+				<div>
+				<a href="#closeModal" title="Закрыть" class="close">X</a>
+				<form>
+				<h2>Вход в личный кабинет</h2>
+				<p>E-mail</p>
+				<input type="text" required value="" />
+				<p>Пароль</p>
+				<input type="text" required value="" />
+				<input type="submit" class="red" value="Войти" />
+				<ul>
+					<li class="Vxod"><a href="#">Напомнить пароль</a></li>
+					<li><a href="#">Создать новый профиль</a></li>
+				</ul>
+				</div>
+				</form>
+             </div>
+			</div>
+		</div>	
+	</div>
+<div id="content">
+    <a href="#" id="callback">Заказать обратный звонок</a>
+</div>
+<div id="popup">
+    <form id="application" role="form" method="POST" name="application" action="application.php">
+        <h3>Обратный звонок</h3>
+        <h1>Ваше имя</h1>
+        <input type="text" name="name" required value="">
+        <p>Номер телефона</p>
+        <input type="text" id="phone" name="phone" required value="" placeholder="+7 (___) ___-__-__">
+        <p>Удобное время звонка</p>
+		<select required>
+			  <option value=""><p>Выберите из списка</p></option>
+			  <option value="">12.00</option>
+			  <option value="">13.00</option>
+			  <option value="">12.00</option>
+			  <option value="">14.00</option>
+			  <option value="">15.00</option>
+			  <option value="">16.00</option>
+			  <option value="">17.00</option>
+			  <option value="">18.00</option>
+		</select>
+        <p>Комментарий</p>
+			     <textarea required value="" rows="0" cols="0"></textarea>
+			     <input type="submit" value="Отправить" class="applicationButton" form="application">
+			     <style type="text/css">
+			     	input {}
+			     </style>
+    </form>
+</div>
+	<div class="clear"></div>
+	<div id="block-1">
+		<div class="inner">
+			<div class="logo">
+				<a href="#"><img src="images/artmet.png"></a>
+			</div>
+			<div class="block-1-text">
+				<p>8 800 775 10 10</p>
+				<span>Бесплатно по России</span>
+			</div>
+			<div class="more">
+			<div class="block-2-text">
+				<p>7 497 500 50 50</p>
+		    </div>
+			</div>
+			<div class="mor">
+			<div class="block-3-text">
+				<p>Корзина покупок</p>
+				<span>Вы еще ничего не добавили</span>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+		<div id="block-2">
+			<div class="inner">
+				 <div class='item'>
+	      <div class='txt'>Каталог продукции</div>
+	      <div class='box'>
+	      	  <nav>
+	      	  	<ul>
+	      	  		<li class="Vxod"><a href="#">Бензоинстурмент</a></li>
+	      	  		<li><a href="#">Бетоносмесители</a></li>
+	      	  		<li><a href="#">Водная техника</a></li>
+	      	  		<li><a href="#">Генераторы</a></li>
+	      	  		<li><a href="#">Деревообрабатывающие <br /> станки</a></li>
+	      	  		<li><a href="#">Дорожная техника</a></li>	
+	      	  		<li><a href="#">Измерительный инструмент</a></li>
+	      	  		<li><a href="#">Компрессоры</a></li>
+	      	  		<li><a href="#">Кузнечное оборудование</a></li>
+	      	  		<li><a href="#">Металлообрабатывающие <br /> станки</a></li>
+	      	  		<li><a href="#">Оснастка</a></li>
+	      	  		<li><a href="#">Пилы цепные</a></li>
+	      	  		<li><a href="#">Плюткорезы</a></li>
+	      	  		<li><a href="#">Пневмоиснтрумент</a></li>
+	      	  		<li><a href="#">Ручной инструмент</a></li>
+	      	  		<li><a href="#">Садовая техника</a></li>
+	      	  		<li><a href="#">Сварочныое оборудование</a></li>
+	      	  		<li><a href="#">Силовая техника</a></li>
+	      	  		<li><a href="#">Снегоуборщики</a></li>
+	      	  		<li><a href="#">Тепловая техника</a></li>
+	      	  		<li><a href="#">Электроинструмент</a></li>
+	      	  		<li><a href="#">Аксессуары</a></li>
+	      	  	</ul>
+	      	  	<div class="txt2"><p>Акции и спецпредложения</p></div>
+	      	  </nav>
+	      </div>
+	    </div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="inner">
+		   <a href="#"><div id="block-3">
+		   	  <p>Везде</p>
+		   	   <span><img src="images/search1.png"></span>
+		   	   <div class="block-3-text">
+		   	   		<input type="text" id="text-to-find" name="">
+		   	   </div>
+		   	   </div>
+		   	   </a>
+		   	 <div id="button">
+		   	 	<div class="inner">
+		   	 	<button type="button" onclick="javascript: FindOnPage('text-to-find'); return false;">Найти</button>
+		   	 	</div>
+		   	 </div>
+		   	 <div class="container">
+		   	 <ul class="bxslider">
+		<li><img src="images/slider.jpg" width="995" height="249" title="Текс 1" /></li>
+		<li><img src="images/slider.jpg" width="995" height="249" title="Текс 1" /></li>
+		<li><img src="images/slider.jpg" width="995" height="249" title="Текс 2"/></li>
+		<li><img src="images/slider.jpg" width="995" height="249" title="Текс 3"/></li>
+		<li><img src="images/slider.jpg" width="995" height="249" title="Текс 4"/></li>
+			</ul>
+		   </div>
+		   </div>
+		   <div class="clear"></div>
+		   <div id="block-4">
+		   	<div class="inner">
+		   		<div class="block4-text1">
+		   			<p>Товар дня</p>
+		   		</div>
+		   		<div class="lss">
+		   		<div class="block4-text2">
+		   			<p>Лазерный нивелир Bosch <br>Quigo II</p>
+		   		</div>
+		   		<div class="block4-text3">
+		   			<p>5 отзывов</p>
+		   			<span>4 голоса</span>
+		   		</div>
+		   		<div class="block4-text3-img">
+		   			<img src="images/image.png">
+		   		</div>
+		   		<div class="block4-text3-text1">
+		   			<p>12 450 руб</p>
+		   		</div>
+		   		<div class="button2">
+		   			<a href="#"><p>Купить</p></a>
+		   		</div>
+		   	</div>
+		   	<div id="block-5">
+		   		<p>Новости</p>
+		   	</div>
+		   	 <div id="all-block-5">
+		   	<div class="block-5-text">
+		   		<p>Сегодня</p>
+		   		<span>Прекращение работы системы<br>онлайн-оплаты "Деньги Mail.Ru</span>
+		   	</div>
+		   	<div class="block-5-text2">
+		   		<p>20 марта</p>
+		   		<span>Новинки в ассортименте<br>McCulloch</span>
+		   	</div>
+		   	<div class="block-5-text3">
+		   		<p>6 марта</p>
+		   		<span>С праздником 8 марта! + наш <br>график</span>
+		   	</div>
+		   	<div class="block-5-text4">
+		   		<p>5 марта</p>
+		   		<span>Новинки в товарном<br>ассортименте Husqvarna</span>
+		   	</div>
+		   	<div class="block-5-text5">
+		   		<a href="#"><p>Все новости</p></a>
+		   	</div>
+		   	<div id="block-6">
+		   		<p>Большой выбор<br> инструмента и<br> техники!</p>
+		   		<img src="images/artmet.png">
+		   	</div>
+		   	<div id="block-7">
+		   		<p>Доставка <br>по всей России</p>
+		   		<img src="images/artmet.png">
+		   	</div>
+		   	</div>
+		   	</div>
+		   </div>
+		   <div id="block-8">
+		   	<div class="inner">
+		   	 <div class="text1">
+		   		<p>Хиты продаж</p>
+		   		<div class="imagess">
+		   		<a href="#"><img src="images/next.png"></a>
+		   		<a href="#"><img src="images/back.png"></a>
+		   		</div>
+		   		<div id="tovar1">
+		   		<div class="tovar1-text">
+		   			<p>Культиватор FORTEHSD1G <br>105G</p>
+		   		</div>
+		   		<div class="tovar1-text3">
+		   			<img src="images/1234.png">
+		   		</div>
+		   		<div class="tovar1-text4">
+		   			<p>12 450 руб</p>
+		   		</div>
+		   		<div class="tovar1-text5">
+		   			<a href="#kupit"><p>Купить</p></a>
+				   <div id="kupit" class="kupit">
+					<a href="#close" title="Закрыть" class="close">X</a>
+				    <span>Товар добавлен в корзину</span>
+				    <img src="">
+				    <ul>
+				    	<li>Дизельная тепловая пушка Калибр ТПД-43 00000030961</li>
+				    	<li>Код товара: 13643910</li>
+				    	<li>12 450 руб.</li>
+				    </ul>
+				    </div>
+				</div>
+		   		<div class="tovar1-text2">
+		   			<p>99 отзывов</p>
+		   			<span>4 голоса</span>
+		   		</div>
+		   		</div>
+		   		<div id="tovar2">
+		   		<div class="tovar2-text">
+		   			<p>Аккумуляторная алмазная <br>пила Makita CC 300 DZ</p>
+		   		</div>
+		   		<div class="tovar2-text3">
+		   			<img src="images/12345.png">
+		   		</div>
+		   		<div class="tovar2-text4">
+		   			<p>12 450 руб</p>
+		   		</div>
+		   		<div class="tovar2-text5">
+		   			<a href="#"><p>Купить</p></a>
+		   		</div>
+		   		<div class="tovar2-text2">
+		   			<p>нет отзывов</p>
+		   			<span>1 голос</span>
+		   		</div>
+		   		</div>
+		   		<div id="tovar3">
+		   		<div class="tovar3-text">
+		   			<p>Резак универсальный Энкор<br>МФЭ-400Э+кейс</p>
+		   		</div>
+		   		<div class="tovar3-text3">
+		   			<img src="images/123456.png">
+		   		</div>
+		   		<div class="tovar3-text4">
+		   			<p>3 650 руб</p>
+		   		</div>
+		   		<div class="tovar3-text5">
+		   			<a href="#"><p>Купить</p></a>
+		   		</div>
+		   		<div class="tovar3-text2">
+		   			<p>2 отзыва</p>
+		   			<span>4 голоса</span>
+		   		</div>
+		   		</div>
+		   		<div id="tovar4">
+		   		<div class="tovar4-text">
+		   			<p>Станок ленточный для <br>дерева КРАТОН WMBS-8-02</p>
+		   		</div>
+		   		<div class="tovar4-text3">
+		   			<img src="images/mon1.png">
+		   		</div>
+		   		<div class="tovar4-text4">
+		   			<p>12 450 руб</p>
+		   		</div>
+		   		<div class="tovar4-text5">
+		   			<a href="#"><p>Купить</p></a>
+		   		</div>
+		   		<div class="tovar4-text2">
+		   			<p>5 отзывов</p>
+		   			<span>4 голоса</span>
+		   		</div>
+		   		</div>
+		   		<div id="tovar5">
+		   		<div class="tovar5-text">
+		   			<p>Домкрат винтовой Энкор 1<br> т 90-350 мм (28580)</p>
+		   		</div>
+		   		<div class="tovar5-text3">
+		   			<img src="images/mon2.png">
+		   		</div>
+		   		<div class="tovar5-text4">
+		   			<p>12 450 руб</p>
+		   		</div>
+		   		<div class="tovar5-text5">
+		   			<a href="#"><p>Купить</p></a>
+		   		</div>
+		   		<div class="tovar5-text2">
+		   			<p>2 отзыва</p>
+		   			<span>4 голоса</span>
+		   		</div>
+		   		</div>
+		   		<div id="tovar6">
+		   		<div class="tovar6-text">
+		   			<p>Лазерный дальномер Sturm!<br>DL1040</p>
+		   		</div>
+		   		<div class="tovar6-text3">
+		   			<img src="images/mon3.png">
+		   		</div>
+		   		<div class="tovar6-text4">
+		   			<p>3 650 руб</p>
+		   		</div>
+		   		<div class="tovar6-text5">
+		   			<a href="#"><p>Купить</p></a>
+		   		</div>
+		   		<div class="tovar6-text2">
+		   			<p>10 отзывов</p>
+		   			<span>4 голоса</span>
+		   		</div>
+		   	</div>
+		   	</div>
+		   	<div class="ifff">
+		   		<img src="images/fff.png">
+		   	</div>
+		   	<div class="allf">
+		   	<div id="tovar7">
+		   		<div class="tovar7-text">
+		   			<p>Культиватор FORTEHSD1G <br>105G</p>
+		   		</div>
+		   		<div class="tovar7-text3">
+		   			<img src="images/1234.png">
+		   		</div>
+		   		<div class="tovar7-text4">
+		   			<p>12 450 руб</p>
+		   		</div>
+		   		<div class="tovar7-text5">
+		   			<a href="#"><p>Купить</p></a>
+		   		</div>
+		   		<div class="tovar7-text2">
+		   			<p>99 отзывов</p>
+		   			<span>4 голоса</span>
+		   		</div>
+		   	</div>
+		   		<div id="tovar8">
+		   		<div class="tovar8-text">
+		   			<p>Аккумуляторная алмазная <br>пила Makita CC 300 DZ</p>
+		   		</div>
+		   		<div class="tovar8-text3">
+		   			<img src="images/12345.png">
+		   		</div>
+		   		<div class="tovar8-text4">
+		   			<p>12 450 руб</p>
+		   		</div>
+		   		<div class="tovar8-text5">
+		   			<a href="#"><p>Купить</p></a>
+		   		</div>
+		   		<div class="tovar8-text2">
+		   			<p>нет отзывов</p>
+		   			<span>1 голос</span>
+		   		</div>
+		   		</div>
+		   		<div id="tovar9">
+		   		<div class="tovar9-text">
+		   			<p>Резак универсальный Энкор<br> МФЭ-400Э+кейс</p>
+		   		</div>
+		   		<div class="tovar9-text3">
+		   			<img src="images/123456.png">
+		   		</div>
+		   		<div class="tovar9-text4">
+		   			<p>3 650 руб</p>
+		   		</div>
+		   		<div class="tovar9-text5">
+		   			<a href="#"><p>Купить</p></a>
+		   		</div>
+		   		<div class="tovar9-text2">
+		   			<p>2 отзыва</p>
+		   			<span>4 голоса</span>
+		   		</div>
+		   		</div>
+		   		<div id="tovar10">
+		   		<div class="tovar10-text">
+		   			<p>Станок ленточный для <br>дерева КРАТОН WMBS-8-02</p>
+		   		</div>
+		   		<div class="tovar10-text3">
+		   			<img src="images/mon1.png">
+		   		</div>
+		   		<div class="tovar10-text4">
+		   			<p>12 450 руб</p>
+		   		</div>
+		   		<div class="tovar10-text5">
+		   			<a href="#"><p>Купить</p></a>
+		   		</div>
+		   		<div class="tovar10-text2">
+		   			<p>5 отзывов</p>
+		   			<span>4 голоса</span>
+		   		</div>
+		   		</div>
+		   		<div id="tovar11">
+		   		<div class="tovar11-text">
+		   			<p>Домкрат винтовой Энкор 1<br> т 90-350 мм (28580)</p>
+		   		</div>
+		   		<div class="tovar11-text3">
+		   			<img src="images/mon2.png">
+		   		</div>
+		   		<div class="tovar11-text4">
+		   			<p>12 450 руб</p>
+		   		</div>
+		   		<div class="tovar11-text5">
+		   			<a href="#"><p>Купить</p></a>
+		   		</div>
+		   		<div class="tovar11-text2">
+		   			<p>2 отзыва</p>
+		   			<span>4 голоса</span>
+		   		</div>
+		   		</div>
+		   		<div id="tovar12">
+		   		<div class="tovar12-text">
+		   			<p>Лазерный дальномер Sturm!<br>DL1040</p>
+		   		</div>
+		   		<div class="tovar12-text3">
+		   			<img src="images/mon3.png">
+		   		</div>
+		   		<div class="tovar12-text4">
+		   			<p>3 650 руб</p>
+		   		</div>
+		   		<div class="tovar12-text5">
+		   			<a href="#"><p>Купить</p></a>
+		   		</div>
+		   		<div class="tovar12-text2">
+		   			<p>10 отзывов</p>
+		   			<span>4 голоса</span>
+		   		</div>
+		   </div>
+		   <div class="stati">
+		   		<p>Статьи и обзоры</p>
+		   		<a href="#"><u>Все статьи</u></a>
+		   </div>
+		   <div class="imag-1">
+		   	  <img src="images/18.png">
+		   </div>
+		    <div class="texting">
+		    	<p>Комбисистема Gardena: <br>практично и удобно</p>
+		    	<span>Выбор правильных инструментов делает садовые работы более приятными и эффективными. В современном мире можно подобрать инструменты, которые идеально подойдут именно для ваших задач и особенностей, например, почвы. Чтобы избежать </span>
+		    	<a href="#">Читать обзор</a>
+		    </div>
+		    <div class="imag-1">
+		   	  <img src="images/19.png">
+		   </div>
+		    <div class="texting">
+		    	<p>Электрогазонокосилки аккумуляторные Viking</p>
+		    	<span>Выбор правильных инструментов делает садовые работы более приятными и эффективными. В современном мире можно подобрать инструменты, которые идеально подойдут именно для ваших задач и особенностей, например, почвы. Чтобы избежать </span>
+		    	<a href="#">Читать обзор</a>
+		    </div>
+		    <div class="clear"></div>
+		    <div class="ceo">
+		    	<p>Заголовок СЕО текста для главной</p>
+		    	<span>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</span>
+		    	<br/>
+		    	<a>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum<br> используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное<br>распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст..</a>
+		    </div>
+		   </div>
+		   <div class="rabota">
+		    	<p>Мы работаем только с ведущими брендами</p>
+		    	<a href="#"><u>Все бренды</u></a>
+		    </div>
+		    <div class="brand">
+		    	<li><img src="images/brand-1.png"></li>
+		    	<li><img src="images/brand-2.png"></li>
+		    	<li><img src="images/brand-3.png"></li>
+		    	<li><img src="images/brand-4.png"></li>
+		    	<li><img src="images/brand-5.png"></li>
+		    	<li><img src="images/brand-6.png"></li>
+		    </div>
+		    <div class="clear"></div>
+	</div>
+	<footer>
+	   <div class="all-footer">
+		   <div class="footer-block-1-text1">
+		   	   <p>© 2015. Интернет-магазин! Все права защищены.</p>
+		   </div> 	
+		   <div class="footer-block-1-text2">
+		   	<p>12548, Казахстан, Алматы, ул.Северодвинская<br>строение 5</p>
+		   </div>
+		   <div class="footer-block-1-text3">
+		   	<a href="#"><u>Посмотреть на карте</u></a>
+		   </div>
+		   <div class="footer-block-1-text4">
+		   	<a href="#"><u>Обратная связь</u></a>
+		   </div>
+		   <div class="footer-block-1-text5">
+		   	<p>Будьте в курсе обновлений</p>
+		   </div>
+		   <div class="footer-block-1-text6">
+		   	  <li><img src="images/11111.jpg"></li>
+		   	  <li><img src="images/11111.jpg"></li>
+		   	  <li><img src="images/11111.jpg"></li>
+		   	  <li><img src="images/11111.jpg"></li>
+		   </div>
+		   <div class="footer-block-1-text7">
+		   	<img src="images/122.png">
+		   </div>
+		   </div>
+		   <div class="footer-menu">
+		   	<li><a href="#">Каталог продукции</a></li>
+		   	<li><a href="#">Акции</a></li>
+		   	<li><a href="#">О магазине</a></li>
+		   	<li><a href="#">Оплата</a></li>
+		   	<li><a href="#">Доставка</a></li>
+		   	<li><a href="#">Гарантия и возврат</a></li>
+		   	<li><a href="#">Сервисные центры</a></li>
+		   	<li><a href="#">Статьи и обзоры</a></li>
+		   	<li><a href="#">Контакты</a></li>
+		   </div>
+		   <div class="footer-cal">
+		   	   <div class="cal1">
+		   	   	<p>Call-центр</p>
+		   	   </div>
+		   	   <div class="cal2">
+		   	   	<p>Пн. - Пт.: с 10:00 до 21:00<br>
+                   Суббота: с 10:00 до 20:00<br>
+                   Воскресенье: с 10:00 до 19:00</p>
+		   	   </div>
+		   	   <div class="cal3">
+		   	   	<p>8 800 775 10 10</p>
+		   	   </div>
+		   	   <div class="cal4">
+		   	   	<p>Бесплатно по России</p>
+		   	   </div>
+		   	   <div class="cal5">
+		   	   	<p>7 497 500 50 50</p>
+		   	   </div>
+		   	   <div class="cal6">
+		   	   	<a href="#"><p>Заказать обратный звонок</p></a>
+		   	   </div>
+		   </div>
+		   <div class="prodaji">
+		   	   <div class="new">
+		   	   	  <p>Узнавайте о новых<br>
+                 акциях и распродажах</p>
+		   	   </div>
+		   	   <div class="email">
+		   	   	   <input type="text" value="Введите ваш эл.почту">
+		   	   </div>
+		   	   <a href="#"><div class="podpisatsa">
+		   	   	   <p>Подписаться</p>
+		   	   </div></a>
+		   	   <div class="prinimaem">
+		   	   	  <p>Мы принимаем к оплате:</p>
+		   	   	  <ul>
+		   	   	  <li><img src="images/6.png"></li>
+		   	   	  <li><img src="images/7.png"></li>
+		   	   	  <li><img src="images/9.png"></li>
+		   	   	  <li><img src="images/10.png"></li>
+		   	   	  </ul>	
+		   	   </div>
+		   </div>
+    </footer>
+</body>
+</html>

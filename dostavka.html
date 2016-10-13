@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<title>Обо нас</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<link rel="stylesheet" type="text/css" href="css/style4.css">
+	<link rel="stylesheet" type="text/css" href="css/style5.css">
+	<script src="js/search.js"></script>
+    <script src="js/lifejquery.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="calls/remodal.min.js"></script>
+     <script src="calls/script.js"></script>
+    <script src="call/script.js"></script>
+     <script src="js/jquery.bxslider.js"></script>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<style type="text/css">
+		   	.container{width: 1000px; margin-left: 280px; margin-top: 7px;}
+    </style>
+    <script type="text/javascript">
+		$(document).ready(function(){
+		  $('.bxslider').bxSlider();
+		});
+	</script>
+	<script type="text/javascript">
+   jQuery(function($){
+  $("#phone").mask("+7(999) 999-9999");
+   });
+</script>
+</head>
+<body>
+
+	<div id="wrapper">
+		<div id="top">
+			<div class="inner">
+			<nav>
+				<ul>
+				<li><a href="about.html">О магазине</a></li>
+					<li><a href="#">АКЦИИ</a></li>
+					<li><a href="#">Оплата</a></li>
+					<li><a href="dostavka.html">доставка</a></li>
+					<li><a href="garantiyaivozvrat.html">Гарантия и возврат</a></li>
+					<li><a href="servis.html">сервисные центры</a></li>
+					<li><a href="rewie.html">статьи и обзоры</a></li>
+					<li class="Vff"><a href="contact.html">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="kabinet">
+				<p><a href="#openModal">Личный кабинет</a></p>
+				<div id="openModal" class="modalDialog">
+				<div>
+				<a href="#closeModal" title="Закрыть" class="close">X</a>
+				<form>
+				<h2>Вход в личный кабинет</h2>
+				<p>E-mail</p>
+				<input type="text" required value="" />
+				<p>Пароль</p>
+				<input type="text" required value="" />
+				<input type="submit" class="red" value="Войти" />
+				<ul>
+					<li class="Vxod"><a href="#">Напомнить пароль</a></li>
+					<li><a href="#">Создать новый профиль</a></li>
+				</ul>
+				</div>
+				</form>
+             </div>
+			</div>
+		</div>	
+	</div>
+<div id="content">
+    <a href="#" id="callback">Заказать обратный звонок</a>
+</div>
+<div id="popup">
+    <form id="application" role="form" method="POST" name="application" action="application.php">
+        <h3>Обратный звонок</h3>
+        <h1>Ваше имя</h1>
+        <input type="text" name="name" required value="">
+        <p>Номер телефона</p>
+        <input type="text" id="phone" name="phone" required value="" placeholder="+7 (___) ___-__-__">
+        <p>Удобное время звонка</p>
+		<select required>
+			  <option value=""><p>Выберите из списка</p></option>
+			  <option value="">12.00</option>
+			  <option value="">13.00</option>
+			  <option value="">12.00</option>
+			  <option value="">14.00</option>
+			  <option value="">15.00</option>
+			  <option value="">16.00</option>
+			  <option value="">17.00</option>
+			  <option value="">18.00</option>
+		</select>
+        <p>Комментарий</p>
+			     <textarea required value="" rows="0" cols="0"></textarea>
+			     <input type="submit" value="Отправить" class="applicationButton" form="application">
+			     <style type="text/css">
+			     	input {}
+			     </style>
+           <!--<a href="#" class="btn button form_submit">Отправить</a>-->
+    </form>
+</div>
+	<div class="clear"></div>
+	<div id="block-1">
+		<div class="inner">
+			<div class="logo">
+				<a href="#"><img src="images/artmet.png"></a>
+			</div>
+			<div class="block-1-text">
+				<p>8 800 775 10 10</p>
+				<span>Бесплатно по России</span>
+			</div>
+			<div class="more">
+			<div class="block-2-text">
+				<p>7 497 500 50 50</p>
+		    </div>
+			</div>
+			<div class="mor">
+			<div class="block-3-text">
+				<p>Корзина покупок</p>
+				<span>Вы еще ничего не добавили</span>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+		<div id="block-2">
+			<div class="inner">
+				 <div class='item'>
+	      <div id='toggler'><a href="#">Каталог продукции</div></a>
+	      <script type="text/javascript">
+	      	window.onload= function() {
+			document.getElementById('toggler').onclick = function() {
+				openbox('box', this);
+				return false;
+			};
+		};
+		function openbox(id, toggler) {
+			var div = document.getElementById(id);
+			if(div.style.display == 'block') {
+				div.style.display = 'none';
+				toggler.innerHTML = 'Каталог продукции';
+			}
+			else {
+				div.style.display = 'block';
+				toggler.innerHTML = 'Каталог продукции';
+			}
+}
+	      </script>
+	      <div id='box' style="display: none;">
+	      	  <nav>
+	      	  	<ul>
+	      	  		<li class="Vxod"><a href="#">Бензоинстурмент</a></li>
+	      	  		<li><a href="#">Бетоносмесители</a></li>
+	      	  		<li><a href="#">Водная техника</a></li>
+	      	  		<li><a href="#">Генераторы</a></li>
+	      	  		<li><a href="#">Деревообрабатывающие <br /> станки</a></li>
+	      	  		<li><a href="#">Дорожная техника</a></li>	
+	      	  		<li><a href="#">Измерительный инструмент</a></li>
+	      	  		<li><a href="#">Компрессоры</a></li>
+	      	  		<li><a href="#">Кузнечное оборудование</a></li>
+	      	  		<li><a href="#">Металлообрабатывающие <br /> станки</a></li>
+	      	  		<li><a href="#">Оснастка</a></li>
+	      	  		<li><a href="#">Пилы цепные</a></li>
+	      	  		<li><a href="#">Плюткорезы</a></li>
+	      	  		<li><a href="#">Пневмоиснтрумент</a></li>
+	      	  		<li><a href="#">Ручной инструмент</a></li>
+	      	  		<li><a href="#">Садовая техника</a></li>
+	      	  		<li><a href="#">Сварочныое оборудование</a></li>
+	      	  		<li><a href="#">Силовая техника</a></li>
+	      	  		<li><a href="#">Снегоуборщики</a></li>
+	      	  		<li><a href="#">Тепловая техника</a></li>
+	      	  		<li><a href="#">Электроинструмент</a></li>
+	      	  		<li><a href="#">Аксессуары</a></li>
+	      	  	</ul>
+	      	  	<div class="txt2"><p>Акции и спецпредложения</p></div>
+	      	  </nav>
+	      </div>
+	    </div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="inner">
+		   <a href="#"><div id="block-3">
+		   	  <p>Везде</p>
+		   	   <span><img src="images/search1.png"></span>
+		   	   <div class="block-3-text">
+		   	   		<input type="text" id="text-to-find" name="">
+		   	   </div>
+		   	   </div>
+		   	   </a>
+		   	 <div id="button">
+		   	 	<div class="inner">
+		   	 	<button type="button" onclick="javascript: FindOnPage('text-to-find'); return false;">Найти</button>
+		   	 	</div>
+		   	 </div>
+		   	 <div id="block-about-1">
+		   	 	<a href="index.html"><p><u>Главная</u></p></a><f>></f></p>
+		   	 	<span>Доставка</span>
+		   	 </div>
+		   	 </div>
+		   	 <div class="inner">
+		   	 <div id="block-magazine">
+		   	  <div class="block-all">
+		   	 	<p>Доставка</p>
+		   	 	<br>
+		   	 	<p>Доставка по Москве и Московской области</p>
+		   	 	<br>
+		   	 	<span>Доставка включается в стоимость товара и оплачивается при получении заказа курьеру в случае<br>наличного расчета или вместе со счетом в случае безналичного расчета. При оплате наличными курьер<br>предоставляет Вам товарный чек, гарантийный талон (только в том случае, если на товар предусмотрена<br>гарантия) и сопроводительные документы, в случае оплаты по безналичному расчету Вам будут<br>предоставлены товарная накладная, счет-фактура, акт оказания услуг, гарантийный талон (в том случае,<br>если на товар предусмотрена гарантия) и сопроводительные документы. Для получения товара по<br>безналичному расчету покупателю также необходимо предоставить доверенность от организации или<br>печать (в случае их отсутствия товар отгружен не будет, а повторный выезд курьера будет оплачиваться<br>отдельно).
+		   	 	<br>
+		   	 	<br>
+		   	 	<br>
+		   	 	<h4>Ограничения по доставке</h4>
+		   	 	<span>Доставка по городу осуществляется в день оформления заказа в том случае, если заказ оформлен до<br>14:00 и заказанный товар имеется в наличии. При оформлении заказа после 14:00 доставка будет<br>осуществлена на следующий день, также при условии, что товар имеется в наличии. В случае<br>безналичной оплаты доставка осуществляется на следующий день после того, как деньги поступили на<br>наш расчетный счет. Время работы службы доставки: понедельник - пятница: с 10:00 до 22:00, суббота -<br>воскресенье: с 10:00 до 18:00.
+		   	 	<br>
+		   	 	<br>
+		   	 	<br>
+		   	 	<p>Стоимость доставки</p>
+		   	 	<br>
+		   	 	<span>—Доставка в пределах МКАД - 150 руб. (осуществляется при сумме заказа от 1000 руб.)<br>—Доставка в пределах 25 км от МКАД - 250 руб. (осуществляется при сумме заказа от 3000 руб.)<br>—Доставка в пределах 50 км от МКАД - 500 руб. (осуществляется при сумме заказа от 5000 руб.)<br>—Доставка в пределах 75 км от МКАД - 1000 руб. (осуществляется при сумме заказа от 5000 руб.)<br>—Доставка в пределах 100 км от МКАД - 1500 руб. (осуществляется при сумме заказа от 5000 руб.)<br>—Доставка на большее расстояние и в соседние области обговаривается отдельно<br>—Доставка до терминала транспортной компании (при отправке в другой регион) - бесплатно
+		   	 	</span>
+		   	 	<br>
+		   	 	<br>
+		   	 	<p>Условия доставки тяжеловесных заказов</p>
+		   	 	<pre> </pre>
+		   	 	<span>При заказе товаров массой более 50 кг к сумме доставки прибавляется дополнительная сумма из<br>расчета 100 руб. за каждые дополнительные 50 кг.</span><br><br>
+		   	 	</span>
+		   	 	</span>
+		   	 	<p>Доставка по России</p>
+		   	 	<br>
+		   	 	<span>Мы работаем с компаниями:</span>
+		   	 	<br>
+		   	 	<br>
+		   	 	<ul>
+		   	 		<li><a href="#"><u>Первая экспедиционная компания</u></a></li>
+		   	 		<li><a href="#"><u>ЖелДорЭкспедиция</u></a></li>
+		   	 		<li><a href="#"><u>Автотрейдинг</a></li>
+		   	 		<li><a href="#"><u>Деловые линии</u></a></li>
+		   	 		<li><a href="#"><u>Объём</u></a></li>
+		   	 		<li><a href="#"><u>Энергия</u></a></li>
+		   	 		<li class="umno"><u>и другими.</u></li>
+		   	 	</ul>
+		   	 	</div>
+		   	 <div id="foto">
+		   	 	<div class="layer-11">
+		   	 		<img src="images/layer-12.png">
+		   	 	</div>
+		   	 	<div class="layer-12">
+		   	 		<img src="images/layer-13.png">
+		   	 	</div>
+		   	 </div>
+		   	 </div>
+		   	 </div>
+	<div class="clear"></div>
+	<footer>
+	   <div class="all-footer">
+		   <div class="footer-block-1-text1">
+		   	   <p>© 2015. Интернет-магазин! Все права защищены.</p>
+		   </div> 	
+		   <div class="footer-block-1-text2">
+		   	<p>12548, Казахстан, Алматы, ул.Северодвинская<br>строение 5</p>
+		   </div>
+		   <div class="footer-block-1-text3">
+		   	<a href="#"><u>Посмотреть на карте</u></a>
+		   </div>
+		   <div class="footer-block-1-text4">
+		   	<a href="#"><u>Обратная связь</u></a>
+		   </div>
+		   <div class="footer-block-1-text5">
+		   	<p>Будьте в курсе обновлений</p>
+		   </div>
+		   <div class="footer-block-1-text6">
+		   	  <li><img src="images/11111.jpg"></li>
+		   	  <li><img src="images/11111.jpg"></li>
+		   	  <li><img src="images/11111.jpg"></li>
+		   	  <li><img src="images/11111.jpg"></li>
+		   </div>
+		   <div class="footer-block-1-text7">
+		   	<img src="images/122.png">
+		   </div>
+		   </div>
+		   <div class="footer-menu">
+		   	<li><a href="#">Каталог продукции</a></li>
+		   	<li><a href="#">Акции</a></li>
+		   	<li><a href="#">О магазине</a></li>
+		   	<li><a href="#">Оплата</a></li>
+		   	<li><a href="#">Доставка</a></li>
+		   	<li><a href="#">Гарантия и возврат</a></li>
+		   	<li><a href="#">Сервисные центры</a></li>
+		   	<li><a href="#">Статьи и обзоры</a></li>
+		   	<li><a href="#">Контакты</a></li>
+		   </div>
+		   <div class="footer-cal">
+		   	   <div class="cal1">
+		   	   	<p>Call-центр</p>
+		   	   </div>
+		   	   <div class="cal2">
+		   	   	<p>Пн. - Пт.: с 10:00 до 21:00<br>
+                   Суббота: с 10:00 до 20:00<br>
+                   Воскресенье: с 10:00 до 19:00</p>
+		   	   </div>
+		   	   <div class="cal3">
+		   	   	<p>8 800 775 10 10</p>
+		   	   </div>
+		   	   <div class="cal4">
+		   	   	<p>Бесплатно по России</p>
+		   	   </div>
+		   	   <div class="cal5">
+		   	   	<p>7 497 500 50 50</p>
+		   	   </div>
+		   	   <div class="cal6">
+		   	   	<a href="#"><p>Заказать обратный звонок</p></a>
+		   	   </div>
+		   </div>
+		   <div class="prodaji">
+		   	   <div class="new">
+		   	   	  <p>Узнавайте о новых<br>
+                 акциях и распродажах</p>
+		   	   </div>
+		   	   <div class="email">
+		   	   	   <input type="text" value="Введите ваш эл.почту">
+		   	   </div>
+		   	   <a href="#"><div class="podpisatsa">
+		   	   	   <p>Подписаться</p>
+		   	   </div></a>
+		   	   <div class="prinimaem">
+		   	   	  <p>Мы принимаем к оплате:</p>
+		   	   	  <ul>
+		   	   	  <li><img src="images/6.png"></li>
+		   	   	  <li><img src="images/7.png"></li>
+		   	   	  <li><img src="images/9.png"></li>
+		   	   	  <li><img src="images/10.png"></li>
+		   	   	  </ul>	
+		   	   </div>
+		   </div>
+    </footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+
+#top .kabinet p a{display: inline-block;}
+footer{margin-top: 100px;}
+#block-about-1 .kontakt-1 p {font-size: 26px; font-weight: bold; color: #474747; margin-top: 20px;}
+.map img{width: 100%; margin-top: 20px;}
+.block-mobiles {  margin-left: 170px;margin-top: 46px; line-height: 25px; float: left;}
+.block-mobiles ul li{list-style: none;}
+.block-mobiles ul li {color: #474747; font-family: RobotoMedium;}
+.block-mobiles ul li span{color: #474747; font-size: 22px; font-family: RobotoMedium; font-weight: bold;}
+.block-mobiles ul li a{margin-left: 77px;color: #474747; font-size: 22px; font-family: RobotoMedium; font-weight: bold;}
+.block-mobiles f { margin-left: 75px;}
+
+.block-mobiles2  {margin-left: 200px;}
+.block-mobiles2 p {color: #474747; font-family: RobotomMedium; font-size: 14px;}
+.block-mobiles2 p span {color: #474747; font-size: 22px; font-family: RobotoMedium; font-weight: bold;}
+.block-mobiles2 h5 {float: left;	color: #474747; font-size: 14px; font-family: RobotoMedium;}
+.block-mobiles2 h2  {text-decoration: underline;	color: #1972b5; font-size: 14px; font-family: RobotoRegular;}
+.block-mobiles2 h6 {font-size: 14px; font-family: RobotoMedium; color: #474747;}
+.block-mobiles2{padding-top: 47px;padding-left: 603px;}

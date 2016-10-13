@@ -1,0 +1,20 @@
+#top .kabinet p a {display: inline-block;}
+#block-2 #toggler {background: url(../images/1.png) no-repeat;font-size: 16pt;font-family: RobotoRegular;margin-left: 20px;/*! margin-top: 31px; */background: red url(../images/1.png) no-repeat 210px 19px;/*! width: 210px; *//*! height: 64px; */padding: 0px 23px 14px 27px;padding-top: 13px;width: 191px;border-radius: 5px;margin-top: 20px;color: white;}
+#block-2 #box{color: #fff;margin-left: 20px; list-style: none;  border-radius: 0px; background: #999; margin-top: -2px;}
+#block-2 #toggler a {color: #fff;}
+#block-2 #box nav ul li a{list-style: none; color: #000000; font-size: 13pt;  font-family: RobotoRegular;}
+#block-2 #box nav ul li a:hover{color: #fff}
+#block-2 #box nav ul li.Vxod{padding-top: 10px;background: url(../images/des.png) no-repeat 229px 18px;}
+#block-2 #box nav li{list-style: none; margin-bottom: 5pt;margin-left: 25px;background: url(../images/des.png) no-repeat 228px 9px;}
+#block-about-1 p { color: #474747;	float: left; margin-left: 33px;margin-right: 25px;}
+#block-about-1 {margin-top: 15px;margin-left: -12px;}
+#block-about-1 f{margin-left: -3px; margin-right: 16px;}
+#block-2 .txt2 {margin-left: 0;}
+
+#block-magazine p {font-size: 26px; font-weight: bold; color: #474747; margin-top: 22px;}
+.block-all{margin-left: 20px;}
+.block-all span {color: #474747; font-size: 20px; font-family: RobotoRegular;}
+.block-all h4{color: #474747; font-size: 20px; font-family: RobotoMedium; margin-bottom: 6px;}
+#foto{margin-left: 1056px;margin-top: -785px;}
+#foto .layer-11 {margin-bottom: 30px;}
+footer{margin-top: 250px;}
