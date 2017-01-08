@@ -55,7 +55,7 @@ font-family: RobotoBold;
 #block-2 .box nav li{list-style: none; margin-bottom: 5pt;margin-left: 1px;background: url(../images/des.png) no-repeat 228px 9px;}
 #block-2 .box nav ul li{}
 #block-2 .txt2{background: url(../images/1.png) no-repeat;font-size: 13pt; font-family: RobotoRegular; margin-left: -5px; background: red url(../images/clock.png) no-repeat 9px 15px; padding: 0px 23px 15px 27px;padding-top: 15px;width: 191px;border-radius: 5px;margin-top: 18px; color: white;}
-#block-2 .txt2 p {margin-left: 7px; margin-top: 1px;}
+#block-2 .txt2 p {margin-left: 9px; margin-top: 1px; width: 215px;}
 
 #block-3 {background: url(../images/search.png) no-repeat 285px 27px;height: 90px;}
 #block-3 p {color: #000000;font-size: 13pt;font-family: RotoboRegular;margin-left: 326px;padding-top: 38px;background: url(../images/8.png) no-repeat 52px 46px;}
