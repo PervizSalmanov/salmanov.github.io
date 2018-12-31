@@ -30,7 +30,7 @@ font-family: RobotoBold;
 #top nav ul li {margin-top: 7px; margin-left: 22px; list-style: none;}
 #top nav ul li a:hover {color: white}
 #top .kabinet p a { font-size: 11pt; text-transform: uppercase; font-family: RobotoRegular; font-weight: Crisp; color: #dfd9d9;/* margin-left: 125px; */display: inline-block;margin-top: 4px;}
-#top .kabinet p {padding-top: 3px;background: url(../images/key.png) no-repeat 1106px 11px;}
+#top .kabinet p {padding-top: 3px;}
 #top nav ul li{float: left;  font-size: 11pt; text-transform: uppercase; font-family: RobotoRegular; font-weight: Crisp; }
 #top nav ul li a{color: white;  color: #dfd9d9; list-style: none; }
 
