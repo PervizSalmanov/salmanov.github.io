@@ -2,8 +2,8 @@
 <strong>
   <h2>Close</h2>
 
-1. Frontend Application  
-2. HTML | CSS | JQUERY      
-3. Landing Page | Adaptive Design
+1. Full Stack Application  
+2. HTML | CSS | JAVASCRIPT | JQUERY | PHP      
+3. Internet Shop | Fixed Design
   
-<a href="https://github.com/pervizsalmanov/Layout-Books_Online"><h2>Demo</h2></a>
+<a href="https://pervizsalmanov.github.io/Layout-Electron_Shop/"><h2>Demo</h2></a>
