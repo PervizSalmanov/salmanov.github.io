@@ -3,6 +3,7 @@
   <h2>Close</h2>
 
 1. Frontend Application  
-2. HTML | CSS | JAVASCRIPT | JQUERY     
+2. HTML | CSS | JAVASCRIPT | JQUERY   
+3. PSD TO HTML
   
 <a href="https://pervizsalmanov.github.io/Electron_Shop/"><h2>Demo</h2></a>
